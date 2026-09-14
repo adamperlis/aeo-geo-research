@@ -13,6 +13,50 @@
 
 ---
 
+<!-- ===== proposed 2026-06-22 (from 25 new article(s)) ===== -->
+## Proposed 2026-06-22
+
+#### Schema as Agentic Infrastructure
+
+- **Schema markup now serves dual roles: entity identification for AI Overviews AND enabling AI agents to act on content; structured data also reduces inference cost for LLMs operating within finite context windows**
+  - As AI agents complete tasks on behalf of users (compare, recommend, book), they need schema not just to *understand* content but to *act on it* — relationships, trustworthiness, and actionability signals. Separately, parsing unstructured HTML is computationally expensive; clean structured data lowers inference cost per page, making schema-rich sites more likely to be fully processed at scale. This is a new efficiency-based argument for schema investment that complements the entity/crawl arguments already in the core. Note: Google's official guide says schema is "not required for AI features" (meaning ranking signals for Overviews) — this is a separate use case for agentic AI interactions beyond Overviews.
+  - _Source: Search Engine Land, 2026-06-01 — https://searchengineland.com/schema-markup-optimize-agentic-web-479080_
+
+#### AI Citation Tracking Requires Statistical Rigor
+
+- **Because LLMs give probabilistic answers, a single prompt run is near-meaningless for tracking; run repeated queries with fixed sampling rules and calculate confidence intervals to produce defensible citation-rate numbers**
+  - "AI mentioned us 3 out of 5 times" is noise; "we have a 60% ± N% citation rate across 30 consistent runs" is a trackable metric that can detect real improvement vs. variance. This is the measurement standard needed before reporting AEO progress to stakeholders. Complements the existing GSC AI performance insight (which is Google-only) by extending rigorous measurement to ChatGPT, Perplexity, and other engines where you track manually.
+  - _Source: Growth Memo (Kevin Indig), 2026-06-08 — https://www.growth-memo.com/p/how-to-make-prompt-tracking-much_
+
+#### Engine-Specific Citation Domain Fingerprints
+
+- **Each major AI engine (Copilot, Gemini, AI Overviews, Grok, Perplexity) has a structurally distinct and stable top-cited domain set — off-site channel strategy must be engine-specific, not engine-agnostic**
+  - Ahrefs' June 2026 "50 Most-Cited Domains" series across five engines documents that the sources each engine preferentially cites differ in consistent patterns. The core's existing "citation fingerprint is vertical-specific" principle extends further: it is *also* engine-specific in structural ways. Before investing in an off-site channel, run target-engine citation analysis for your specific vertical to verify that channel actually gets cited by *that* engine — not just by "AI" broadly. A channel that dominates Perplexity citations may be nearly absent from Gemini's top sources.
+  - _Source: Ahrefs (five-engine citation series), 2026-06-01 — https://ahrefs.com/blog/most-cited-domains-perplexity/ (see also /copilot/, /gemini/, /most-cited-domains-ai-overviews/, /most-cited-domains-grok/)_
+
+
+<!-- ===== proposed 2026-06-29 (from 13 new article(s)) ===== -->
+## Proposed 2026-06-29
+
+#### Measurement: AI "Share of Voice" Scores Are Unfalsifiable
+
+- **Vendor AI visibility platforms present precise-looking percentages that have no valid denominator — the AI prompt universe is infinite and personalized, so no cross-platform SOV score can be audited or validated**
+  - Unlike keyword-set SOV (fixed list, transparent assumptions), AI prompt space is unbounded and varies by session, user, and context. A single percentage obscures what was and wasn't tested. In AEO audits, replace vendor SOV scores with auditable proxies: GSC AI performance report data, manual prompt panels targeting real buyer queries, and brand-mention tracking separated from URL citation counts.
+  - _Source: Search Engine Land, 2026-06-08 — https://searchengineland.com/ai-share-of-voice-metrics-that-matter-more-479611_
+
+#### Technical: Server Logs Are Now the Authoritative AI Crawler Audit Tool
+
+- **Server logs capture every GPTBot, Applebot, and AI crawler request that GSC, analytics, and third-party crawlers miss — on large sites, they reveal AI crawl access problems before they show up in any ranking signal**
+  - Every bot request logs URL, response code, user agent, and timestamp. GSC and crawl simulators operate on samples or delayed data; logs are the ground truth. For sites with complex JS routing, paywalls, or aggressive caching, analyzing GPTBot/Applebot behavior in logs is now a distinct audit step — not covered by a standard Screaming Frog crawl.
+  - _Source: Search Engine Land, 2026-06-09 — https://searchengineland.com/server-logs-reveal-what-seo-tools-miss-479650_
+
+#### Ghost Citations: AI Engines Cite Domains Without Mentioning the Brand
+
+- **In a 4-engine study (ChatGPT, Gemini, Google AI Overviews, AI Mode, n=3,981 domain appearances), 62% of AI citations were "ghost citations" — the URL was cited but the brand name never appeared in the response text**
+  - URL citation and brand mention are distinct AEO outcomes with different business value. A ghost citation influences nothing the reader sees. To convert citations into brand mentions: strengthen entity signals (consistent Organization schema sitewide, `sameAs` cross-links, repeated brand-name attribution in third-party sources) and write content that names the brand explicitly in extractable summary positions — not just in body copy.
+  - _Source: Semrush / Kevin Indig, 2026-06-09 — https://www.semrush.com/blog/the-ghost-citations-study/ (vendor study, moderate trust — methodology disclosed)_
+
+
 <!-- ===== proposed 2026-06-17 (deduped, 25 new articles) ===== -->
 ## Proposed 2026-06-17 — backlog catch-up (deduped)
 
