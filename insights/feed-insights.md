@@ -13,6 +13,40 @@
 
 ---
 
+<!-- ===== proposed 2026-11-09 (from 25 new article(s)) ===== -->
+## Proposed 2026-11-09
+
+#### Competitors Can Hijack Your Branded AI Overviews
+
+- **21.7% of Google AI Overviews triggered by branded buying queries cite a competitor; when buyers ask AI to compare you to a rival, the AI builds its answer from whatever comparison evidence exists — which may be your competitor's own page**
+  - Extends the core's "build comparison pages for competitors agents name" principle in a new direction: a competitor can actively shape what AI says about *your brand* when your brand is the query. Monitor branded AI Overviews weekly via GSC AI performance report + manual prompts. For every competitor running "X vs. [your brand]" pages, publish a counter-narrative on your own domain and ensure it ranks. In the ATS vertical example, Ashby's comparison page was cited when buyers searched for Greenhouse.
+  - _Source: Foundation Marketing (The Lab Vol. 314, Writesonic data), 2026-10-19 — https://foundationinc.co/lab/vol-314; also Vol. 312, 2026-10-06 — https://foundationinc.co/lab/vol-312_
+
+#### Technical Documentation Is the Dominant First-Party AI Citation Source for Developer/SaaS Products
+
+- **For technical products, owned documentation beats owned blog content as a first-party AI citation source — Docker's data shows 54% of its AI citations come from docs, even during product-comparison queries**
+  - The core's citation channel map (Reddit 20.8%, YouTube 13%, etc.) describes third-party sources. This finding adds the first-party picture: for developer/SaaS products, docs — not blog posts — are the highest-leverage owned asset. Treat documentation as a primary AEO surface: structure docs to answer buyer-intent questions (integrations, comparisons, use cases), ensure they're publicly crawlable (not behind auth), and apply the same H2/H3 extractability standards the core recommends for blog content.
+  - _Source: Foundation Marketing (The Lab Vol. 311), 2026-09-28 — https://foundationinc.co/lab/vol-311_
+
+#### Simple Original-Data Pages Outperform Comprehensive Reports for AI Citation
+
+- **A short page built around a single original data finding is cited by AI more reliably than a large industry report covering the same topic**
+  - AI engines favor extractability over comprehensiveness. A concise page with one clear, citable stat has high signal-to-noise; a 10,000-word annual report buries the finding. When building data assets for citation purposes, publish individual findings as dedicated, stand-alone pages — each finding gets its own URL and clean extractable structure — rather than consolidating everything into an omnibus report. Counterintuitive but consistent with the core's FSA "Structure" lens.
+  - _Source: Brian Dean/Backlinko via Semrush, 2026-09-24 — https://www.youtube.com/watch?v=4a-W0liaIlU (vendor video, moderate trust)_
+
+#### Vibe-Coded Sites Systematically Violate the Initial-HTML Requirement
+
+- **AI-generated ("vibe-coded") websites introduce a recurring AEO failure mode: each iterative prompt can silently shift existing content from server-rendered HTML to client-side JS without the builder noticing**
+  - The core already requires server-rendered HTML for AI crawlability. Vibe-coded sites add a new failure pattern: the site launches clean, then a later AI-assisted edit (adding an image gallery, a testimonials section, a data table) inadvertently wraps prior content in a JS component. Audit by viewing raw page source — not DevTools — after every significant AI-assisted change. If key headings and body text are absent from the raw HTML, they're invisible to AI crawlers.
+  - _Source: Search Engine Land, 2026-11-03 — https://searchengineland.com/technical-seo-checks-vibe-coded-websites-500033_
+
+#### Price-Modifier Keywords Are Structurally Undercompeted
+
+- **Keywords using "cheap," "affordable," "budget," or "low-cost" are systematically underserved because brands avoid price-qualifier language — but users search those terms heavily, and ranking for them also drives ranking for "best" variants**
+  - Brands self-censor price qualifiers to protect premium positioning, creating a keyword gap searchers exploit. Placing a price modifier in the page title (the most visible element for clicks) captures high-intent, conversion-ready traffic with minimal competition. Applies to informational and commercial pages alike. Practical: add one dedicated page per price-modifier variant of your top commercial keyword where conversion intent is high.
+  - _Source: Edward Sturm (via James Dooley), 2026-08-11 — https://edwardsturm.com/articles/2-easy-seo-tricks-cheap-modifier-micro-influencers/_
+
+
 <!-- ===== proposed 2026-06-22 (from 25 new article(s)) ===== -->
 ## Proposed 2026-06-22
 

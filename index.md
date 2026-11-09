@@ -4,7 +4,7 @@ Machine-readable index of the research documents in this repo. The open-source
 `seo-aeo-geo` Claude skill fetches this file first, then the doc(s) most relevant to the
 user's question.
 
-_Last updated: 2026-09-14 (auto-published)._
+_Last updated: 2026-11-09 (auto-published)._
 
 ## Documents
 
